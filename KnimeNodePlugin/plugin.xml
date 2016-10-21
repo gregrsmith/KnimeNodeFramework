@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+      <extension
+         point="org.knime.workbench.repository.categories">
+            <category 
+			   	description="Greg Smith's Nodes" 
+			   	icon="icons/masmiths-24.png" 
+			   	level-id="masmiths" 
+			   	name="Greg Smith" 
+			   	path="/"/>
+   </extension>
+  
+
+	
+   <extension
+         point="org.knime.workbench.repository.nodes">
+      <node
+            category-path="/masmiths/"
+            factory-class="com.masmiths.greg.knime.nodes.NodeFrameworkPluginNodeFactory"
+            id="com.masmiths.greg.knime.nodes.NodeFrameworkPluginNodeFactory"/>
+   </extension>
+   
+   
+      <extension point="org.knime.product.splashExtension">
+                <splashExtension icon="icons/masmiths-48.png" icon24="icons/masmiths-24.png" icon32="icons/masmiths-32.png" id="Greg Smith" tooltip="Greg Smith"/>
+    </extension>
+</plugin>

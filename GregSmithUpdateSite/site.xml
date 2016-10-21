@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.masmiths.greg.knime.feature_0.0.1.201610202100.jar" id="com.masmiths.greg.knime.feature" version="0.0.1.201610202100">
+      <category name="com.masmiths.greg.knime.category.1"/>
+   </feature>
+   <category-def name="com.masmiths.greg.knime.category.1" label="Greg Smith Nodes"/>
+</site>
